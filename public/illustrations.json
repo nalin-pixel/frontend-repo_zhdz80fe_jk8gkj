@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Luna and the Space Cat",
+    "desc": "A cozy rocket flight past marshmallow clouds.",
+    "img": "/images/space_cat.svg",
+    "alt": "Child and a friendly space cat flying a pastel rocket past candy clouds",
+    "style": "space"
+  },
+  {
+    "title": "The Playground Hero",
+    "desc": "A brave day when the slide needed saving.",
+    "img": "/images/playground_hero.svg",
+    "alt": "Kids helping each other at a playground with bright slides and bold outlines",
+    "style": "everyday"
+  },
+  {
+    "title": "Grandpa’s Garden",
+    "desc": "Sunflowers, giggles and muddy boots.",
+    "img": "/images/grandpa_garden.svg",
+    "alt": "Grandparent and child watering huge sunflowers with cartoon butterflies",
+    "style": "animals"
+  },
+  {
+    "title": "The Ocean Mystery",
+    "desc": "Turtles, bubbles and a hidden treasure map.",
+    "img": "/images/ocean_mystery.svg",
+    "alt": "Children swimming with turtles and fish finding a treasure map",
+    "style": "ocean"
+  },
+  {
+    "title": "Forest Friends",
+    "desc": "Owls, foxes and picnic pies in a sunny grove.",
+    "img": "/images/forest_friends.svg",
+    "alt": "Children sharing a picnic with cute forest animals in a pastel forest",
+    "style": "animals"
+  },
+  {
+    "title": "Dream Castle",
+    "desc": "A friendly dragon guards the glitter bridge.",
+    "img": "/images/dream_castle.svg",
+    "alt": "Castle with a smiling dragon by a glittery bridge and rainbow flags",
+    "style": "fantasy"
+  }
+]

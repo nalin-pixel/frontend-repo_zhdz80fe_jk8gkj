@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fee2e2"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <g>
+    <rect x="200" y="200" width="1200" height="800" rx="40" fill="#ffffff" stroke="#fbcfe8" stroke-width="20"/>
+    <line x1="800" y1="200" x2="800" y2="1000" stroke="#fecdd3" stroke-width="8"/>
+    <rect x="240" y="260" width="520" height="360" rx="24" fill="#fde68a"/>
+    <rect x="240" y="660" width="520" height="280" rx="24" fill="#bbf7d0"/>
+    <rect x="840" y="260" width="520" height="280" rx="24" fill="#a5b4fc"/>
+    <rect x="840" y="580" width="520" height="360" rx="24" fill="#fca5a5"/>
+  </g>
+  <text x="260" y="320" font-size="56" font-family="Verdana" fill="#fb7185" font-weight="700">Your Story</text>
+  <text x="860" y="320" font-size="56" font-family="Verdana" fill="#8b5cf6" font-weight="700">Illustrations</text>
+</svg>

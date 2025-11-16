@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f0fdf4"/>
+  <g>
+    <circle cx="260" cy="360" r="100" fill="#bbf7d0"/>
+    <rect x="200" y="1100" width="800" height="160" rx="40" fill="#a7f3d0"/>
+    <circle cx="420" cy="960" r="120" fill="#fda4af"/>
+    <circle cx="620" cy="1000" r="80" fill="#fdba74"/>
+  </g>
+  <text x="120" y="300" font-size="80" font-family="Verdana" fill="#16a34a" font-weight="700">Forest Friends</text>
+</svg>

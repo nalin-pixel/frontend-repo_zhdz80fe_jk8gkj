@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#ecfeff"/>
+  <g>
+    <circle cx="300" cy="400" r="120" fill="#fde68a"/>
+    <rect x="120" y="1100" width="960" height="140" rx="30" fill="#86efac"/>
+    <circle cx="420" cy="1050" r="120" fill="#fef08a"/>
+    <circle cx="520" cy="980" r="90" fill="#fef9c3"/>
+  </g>
+  <text x="120" y="300" font-size="80" font-family="Verdana" fill="#10b981" font-weight="700">Grandpa's Garden</text>
+</svg>

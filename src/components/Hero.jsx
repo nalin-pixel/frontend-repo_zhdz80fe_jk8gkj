@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Wand2, Stars } from 'lucide-react'
+import ImageWithSkeleton from './ImageWithSkeleton'
 
 export default function Hero({ onCTAClick }) {
   return (
@@ -60,11 +61,12 @@ export default function Hero({ onCTAClick }) {
               className="relative rounded-3xl border-4 border-pink-300 bg-white p-4 shadow-[8px_8px_0_0_rgba(236,72,153,0.25)] rotate-2"
             >
               <div className="aspect-[4/3] relative rounded-2xl overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1603655693420-57f5f3f4f3af?q=80&w=1200&auto=format&fit=crop"
+                <ImageWithSkeleton
+                  src="/images/hero_spread.svg"
                   alt="Storybook spread mockup with bright illustrations"
-                  className="absolute inset-0 h-full w-full object-cover"
-                  loading="eager"
+                  eager
+                  className="absolute inset-0 h-full w-full"
+                  imgClassName="absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-white/0 via-white/0 to-white/0" />
               </div>
