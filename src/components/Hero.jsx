@@ -59,12 +59,14 @@ export default function Hero({ onCTAClick }) {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="relative rounded-3xl border-4 border-pink-300 bg-white p-4 shadow-[8px_8px_0_0_rgba(236,72,153,0.25)] rotate-2"
             >
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-amber-100 via-white to-sky-100 grid place-content-center text-center">
-                <div className="mx-auto max-w-xs">
-                  <div className="mx-auto h-16 w-16 rounded-2xl bg-gradient-to-br from-amber-300 to-pink-400 shadow-inner" />
-                  <p className="mt-4 font-extrabold text-pink-900">Your characters. Your world.</p>
-                  <p className="mt-2 text-sm text-pink-900/80">Pick colors and creatures. We draw and write a whole picture book just for you.</p>
-                </div>
+              <div className="aspect-[4/3] relative rounded-2xl overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1603655693420-57f5f3f4f3af?q=80&w=1200&auto=format&fit=crop"
+                  alt="Storybook spread mockup with bright illustrations"
+                  className="absolute inset-0 h-full w-full object-cover"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-white/0 via-white/0 to-white/0" />
               </div>
               <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-2xl bg-white border-4 border-pink-300 shadow-lg grid place-content-center text-sm font-black text-pink-900">Preview</div>
             </motion.div>
